@@ -1,10 +1,8 @@
 /* CSS BY TYLER */
 
 /* IMPORTED FONTS*/
-
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Barrio&family=Creepster&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=UnifrakturCook:wght@700&display=swap');
-</style>
+
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -38,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    font-family: 'Inter', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -66,7 +65,18 @@ table {
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
+body {
+    background: var(--white);
+    color: var(--black);
+    padding-bottom: 4rem;
+    font-size: 1rem;
+}
 
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--charcoal);
+    margin-bottom: .5rem;
+}
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
