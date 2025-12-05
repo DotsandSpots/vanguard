@@ -154,8 +154,8 @@ h1, h2, h3 {
 }
 
 
-/* MEDIA QUERIES (MEDIUM) */ 
-
+/* MEDIA QUERY (MEDIUM) */
+@media (min-width: 800px) {
     #results {
         grid-template-columns: 1fr 1fr;
     }
@@ -169,6 +169,12 @@ h1, h2, h3 {
     .bar-chart {
         width: 50%;
     }
+}
+
 
 
 /* MEDIA QUERIES (LARGE) */
+@media (min-width: 1024px) {
+   /* styles go here */
+}
+
