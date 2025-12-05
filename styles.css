@@ -120,6 +120,11 @@ h1, h2, h3 {
     padding: 1rem;
     position: relative;
 }
+
+#expertise {
+    background: #EAEAEA;
+    padding: 2rem 1rem;
+}
 /* ADD ON TRANSITION ON HEIGHT */
 .bar {
     width: 50px;
